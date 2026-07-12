@@ -83,7 +83,7 @@ CAN.dy is organized for community/artistic purposes and is not intended to distr
 9. **Access to financial records.** The Treasurer will provide reasonable read-only access to financial reports/records to the Co-Directors and Secretary for oversight and continuity.
 
 ### Article 12 — Payment platforms and reimbursements
-1. **Dues collection.** Dues should be collected via **WildApricot** (or a successor platform approved by the Co-Directors) when feasible.  
+1. **Dues collection.** Dues should be collected through a payment platform approved by the Co-Directors. The Co-Directors may adopt, change, or replace the platform at their discretion, provided that payments are processed through the Team's account(s) and not through personal accounts of any participant or officer.  
 2. **No peer-to-peer payments.** CAN.dy will avoid peer-to-peer payment services for Team transactions when feasible.  
 3. **If an individual pays on behalf of the Team.** If a participant or officer must pay a Team expense personally (e.g., to secure time-sensitive studio costs), they may request reimbursement under Article 11.5, subject to required approvals and available funds.
 
@@ -136,3 +136,9 @@ These bylaws may be amended only with the approval of **both Co-Directors**. If 
 1. **Who may sign.** Only a Co-Director may sign contracts or make binding commitments on behalf of CAN.dy, unless both Co-Directors provide written authorization naming another person and defining the scope.  
 2. **Required review.** Before signing venue/studio/event agreements (or any agreement involving money, cancellation fees, insurance requirements, or publicity rights), the signing Co-Director will share the agreement with the other Co-Director for review when practicable.  
 3. **Limits.** The Project Coordinator and other appointed roles may communicate with venues and organizers but may not bind CAN.dy without written authorization under Section 1.
+
+### Article 20 — Electronic Acknowledgment and Records
+1. **Electronic acknowledgment.** Where these bylaws or Team policies call for a participant to read, agree to, acknowledge, or consent to anything — including these bylaws and the media release in Article 16 — such acknowledgment may be given electronically through the Team's official system or platform. An affirmative action taken by a participant (such as checking a box or clicking a clearly labeled button next to the relevant statement) constitutes valid and binding acknowledgment and consent, with the same effect as a handwritten signature.
+2. **Versioned records.** The Team may maintain acknowledgments against a specific version of a document. When a document is revised, the Team may require participants to re-acknowledge the current version. Each acknowledgment record identifies the participant, the specific document version acknowledged, and the date and time of acknowledgment.
+3. **Retention and integrity.** Acknowledgment records are retained indefinitely and are maintained on an append-only basis; they are not altered or deleted after creation, except as required by law.
+4. **Electronic notices.** Notices required under these bylaws (including dues reminders, late/forfeiture notices under Article 10, and voting notices under Article 9) may be delivered electronically to the participant's email address or through the Team's system.
