@@ -1,9 +1,7 @@
 # CAN.dy Dance Project
 ## Release of Liability, Assumption of Risk, Waiver, and Media Release
 
-**Document Version:** v1.0
-**Participant Name:** ______________________
-**Date:** ______________________
+**Document Version:** v1
 
 In consideration of being permitted to participate in this **participatory dance event** and related rehearsals, performances, video productions, auditions, and activities (collectively, the **"Activities"**) organized by **CAN.dy Dance Project** ("CAN.dy" or the "Team"), an unincorporated association based in San Jose, Santa Clara County, California, I agree to the following on behalf of myself and my heirs, next of kin, personal representatives, and assigns:
 
@@ -56,12 +54,16 @@ I have read this Agreement, fully understand its terms, understand that I am **g
 
 ### Acknowledgment
 
-**Handwritten signature option:**
-Signature: ______________________  Print Name: ______________________  Date: __________
+By acknowledging this document you confirm all three of the following:
 
-**Electronic acknowledgment option (per Article 20 of the Bylaws):**
-By checking the box / clicking "I Agree" next to this statement, I acknowledge that I have read, understand, and agree to this Release of Liability, Assumption of Risk, Waiver, and Media Release. I understand this electronic acknowledgment has the **same legal effect as a handwritten signature**.
+- I am **18 years of age or older**.
+- I have read and agree to this **Release of Liability, Assumption of Risk, and
+  Waiver**.
+- I consent to **photo/video recording** and agree to the **Media Release**
+  above. Article 16.3 of the bylaws makes participation conditional on this
+  consent.
 
-[ ] I confirm I am **18 years of age or older**.
-[ ] I have read and agree to the **CAN.dy Release of Liability, Assumption of Risk, and Waiver (v1.0)**.
-[ ] I consent to **photo/video recording** and agree to the **CAN.dy Media Release (v1.0)**.
+Under Article 20.1, ticking the acknowledgment box has the **same legal effect
+as a handwritten signature**. The record identifies you, the version of this
+document you agreed to, and the date and time, and cannot afterwards be altered
+or deleted (Article 20.3).
