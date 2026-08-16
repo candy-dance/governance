@@ -6,7 +6,6 @@ It is documentation-first: the repo contains policies, templates, and class mate
 ## Folder map
 - `admin/` — governance, finance, operations, and participant-facing forms
 - `admin_pdfs/` — generated PDFs mirroring the `admin/` tree
-- `classes/` — teaching materials such as `classes/muevelo.md`
 - `AGENTS.md` — repo-specific guidance for AI coding agents
 
 ## Admin structure
@@ -22,7 +21,7 @@ See `admin/README.md` for a file-by-file index.
 ## Editing notes
 - Treat Markdown files as the editable source.
 - PDFs for `admin/**/*.md` are regenerated into `admin_pdfs/` on pushes to `main` by `.github/workflows/update-pdfs.yml`.
-- `README.md`, `admin/README.md`, `AGENTS.md`, and `classes/` materials are not part of the PDF automation unless the workflow is expanded.
+- `README.md`, `admin/README.md`, and `AGENTS.md` are not part of the PDF automation unless the workflow is expanded.
 - Start with `admin/governance/bylaws.md` when editing related policies; other docs reuse its approval, reimbursement, election, and contract-authority rules.
 
 ## Operational flow

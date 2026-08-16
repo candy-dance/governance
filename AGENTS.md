@@ -11,7 +11,7 @@
 - `admin/` is now grouped by function: `governance/`, `finance/`, `operations/`, and `participant_forms/`.
 - `admin/operations/` is further split into `projects/`, `venues/`, and `records/`.
 - Generated PDFs are stored in `admin_pdfs/` using the same relative path as source files under `admin/`.
-- `classes/` is separate and stores teaching materials such as `classes/muevelo.md`.
+- Teaching materials live in `candy-dance/classes`, not here. This repository is governance, finance, and operations only.
 - `.github/workflows/update-pdfs.yml` regenerates PDFs for `admin/**/*.md` into `admin_pdfs/` on pushes to `main` by running `scripts/generate_pdfs.sh`.
 
 ## Source-of-truth relationships
@@ -47,6 +47,6 @@
 ## What not to assume
 - `README.md` and `admin/README.md` are navigation aids; policy and workflow truth still lives in the source documents they point to.
 - No application build tooling or test suite was found.
-- Do not invent additional CI steps or local PDF workflows beyond the discovered GitHub Action; `classes/` materials and navigation docs are outside the current PDF automation scope.
+- Do not invent additional CI steps or local PDF workflows beyond the discovered GitHub Action; navigation docs are outside the current PDF automation scope.
 
 
