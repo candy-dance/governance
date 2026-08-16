@@ -27,7 +27,7 @@ Edit the `.md` source files here; generated PDFs are written to `admin_pdfs/` us
 - `operations/records/drive_conventions.md` — Google Drive folder naming, subfolders, access list, closeout storage
 
 ## Participant forms
-- `participant_forms/participation_acknowledgement_risk.md` — participant risk acknowledgment and emergency contact form
+- `participant_forms/participation_agreement.md` — the single document every participant agrees to: assumption of risk, release of liability, responsibilities, and media release
 
 ## Typical workflow
 1. Start with `operations/projects/project_proposal.md`

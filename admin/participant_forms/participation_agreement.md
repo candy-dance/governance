@@ -1,5 +1,9 @@
 # CAN.dy Dance Project
-## Release of Liability, Assumption of Risk, Waiver, and Media Release
+## Participation Agreement
+
+Covering assumption of risk, release of liability, participant
+responsibilities, and media release. This is the single document every
+participant agrees to before taking part in a Project.
 
 **Document Version:** v1
 
@@ -26,42 +30,51 @@ I understand that these risks **cannot be eliminated** regardless of the care ta
 ### 4. Physical Condition
 I represent that I am physically fit and have no medical condition that would prevent safe participation. I understand that CAN.dy does not provide medical services and recommends consulting a physician before participating. I am solely responsible for determining my own capacity to participate.
 
-### 5. Release and Waiver of Liability
+### 5. Participant Responsibilities
+I agree to **follow safety instructions** given by the Project Choreographer(s)
+and Co-Directors, and to observe the rules of any studio or venue where the
+Activities take place. I agree to **communicate any injury, illness, or safety
+concern promptly** to the Project Choreographer(s) and/or Co-Directors, so that
+it can be addressed before it worsens or affects others.
+
+### 6. Release and Waiver of Liability
 To the fullest extent permitted by California law, I hereby **release, waive, discharge, and covenant not to sue** CAN.dy and its Co-Directors, officers (Treasurer and Secretary), Project Choreographers/Artistic Directors, appointed role-holders, members, volunteers, and agents, **and further including the owners, operators, landlords, lessors, and staff of any studio, venue, or facility where the Activities take place (each a "Venue"), each of whom is an intended third-party beneficiary of this release** (collectively, the **"Released Parties"**), from any and all claims, demands, liabilities, damages, costs, or causes of action of any kind arising out of or related to my participation in the Activities, **including claims based on the ordinary negligence of any Released Party**, whether resulting in personal injury, illness, death, or property damage.
 
-### 6. Limits of Release (California Law)
+### 7. Limits of Release (California Law)
 This release **does not** apply to liability arising from **gross negligence, recklessness, willful or wanton misconduct, fraud, or any conduct that cannot lawfully be released** under California law. Nothing in this Agreement waives any right that cannot legally be waived.
 
-### 7. Indemnification
+### 8. Indemnification
 I agree to **indemnify, defend, and hold harmless** the Released Parties from any claims, losses, liabilities, or expenses (including reasonable attorneys' fees) brought by me or on my behalf, or arising from my own negligent or wrongful acts during the Activities, to the fullest extent permitted by law.
 
-### 8. Consent-Based Partnering Acknowledgment
+### 9. Consent-Based Partnering Acknowledgment
 Consistent with CAN.dy's conduct policies, I understand that all partnering and contact choreography is **consent-based**, that I may **decline any contact at any time without retaliation**, and that I am responsible for communicating my boundaries. This Agreement does not release any Released Party from liability for harassment or intentional misconduct.
 
-### 9. Media Release (Photo/Video)
+### 10. Media Release (Photo/Video)
 I understand that CAN.dy Activities may involve photo and video recording during rehearsals, performances, and shoots. I grant CAN.dy permission to use my **name, image, likeness, voice, and performance** captured in connection with CAN.dy Activities for Team promotion, documentation, and distribution (including social media), **without additional compensation**. I understand that consenting to recording and this media release is a **condition of participation**, and that individuals who do not consent may not participate.
 
-### 10. Governing Law and Venue
+### 11. Governing Law and Venue
 This Agreement is governed by the laws of the **State of California**. Any dispute will be brought exclusively in the state or federal courts located in **Santa Clara County, California**.
 
-### 11. Severability
+### 12. Severability
 If any provision of this Agreement is held invalid or unenforceable, the remaining provisions will continue in full force, and the invalid provision will be enforced to the maximum extent permitted by law.
 
-### 12. Voluntary and Knowing Agreement
+### 13. Voluntary and Knowing Agreement
 I have read this Agreement, fully understand its terms, understand that I am **giving up substantial rights, including the right to sue**, and sign/agree freely and voluntarily without inducement.
 
 ---
 
 ### Acknowledgment
 
-By acknowledging this document you confirm all three of the following:
+By acknowledging this document you confirm all of the following:
 
-- I am **18 years of age or older**.
-- I have read and agree to this **Release of Liability, Assumption of Risk, and
-  Waiver**.
-- I consent to **photo/video recording** and agree to the **Media Release**
-  above. Article 16.3 of the bylaws makes participation conditional on this
-  consent.
+- I am **18 years of age or older** (bylaws Article 4.1).
+- I have read and agree to the **assumption of risk and release of liability**
+  above, and understand I am giving up the right to sue for ordinary
+  negligence.
+- I accept the **participant responsibilities** in section 5.
+- I consent to **photo/video recording** and agree to the **media release** in
+  section 10. Article 16.3 of the bylaws makes participation conditional on
+  this consent.
 
 Under Article 20.1, ticking the acknowledgment box has the **same legal effect
 as a handwritten signature**. The record identifies you, the version of this
