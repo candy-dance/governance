@@ -1,5 +1,18 @@
 ## CAN.dy Dance Project Bylaws
 
+> **Parts of this document are executable.** The CAN.dy membership system
+> (`github.com/candy-dance/candy-dance-app`) implements **Article 10** (dues) and
+> **Article 20** (electronic acknowledgment) as Postgres triggers and
+> constraints, so that the rules cannot be bypassed by application code.
+>
+> Editing either Article means the code must be revisited:
+> - Article 10 → `supabase/migrations/0002_projects_and_dues.sql`
+> - Article 20 → `supabase/migrations/0004_documents_and_acknowledgments.sql`
+>
+> `docs/bylaws-issues.md` in that repo records where this document is ambiguous,
+> silent, or behind what the Team actually does. Read it before amending.
+
+
 **CAN.dy Dance Project Bylaws**  
 Adopted: _________, 2026  
 Location: San Jose, Santa Clara County, California

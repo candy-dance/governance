@@ -1,4 +1,9 @@
 **CAN.dy Dance Project — Finance & Reimbursement Policy**  
+
+> Payment collection and the Treasurer's Article 11.6 monthly report are
+> implemented in `github.com/candy-dance/candy-dance-app`. Payouts route to the
+> Stanford Federal Credit Union account named in section 2.
+
 Effective: _________, 2026
 
 1. **Purpose.** Establish clear controls for handling Team funds and reimbursing expenses.

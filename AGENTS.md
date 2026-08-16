@@ -1,7 +1,13 @@
 # AGENTS.md
 
 ## Repository shape
-- This is a documentation-first repository; no application code, test suite, or build tooling was found.
+- This is a documentation-first repository; no application code, test suite, or build tooling lives here.
+- **It is not standalone.** `github.com/candy-dance/candy-dance-app` implements
+  Article 10 (dues) and Article 20 (electronic acknowledgment) as database
+  triggers and constraints. Amending either Article without updating that repo
+  leaves the code silently enforcing the old rule — and the code is what
+  actually charges people money. That repo's `docs/bylaws-issues.md` lists the
+  places where these documents are ambiguous or behind current practice.
 - `admin/` is now grouped by function: `governance/`, `finance/`, `operations/`, and `participant_forms/`.
 - `admin/operations/` is further split into `projects/`, `venues/`, and `records/`.
 - Generated PDFs are stored in `admin_pdfs/` using the same relative path as source files under `admin/`.
