@@ -13,7 +13,7 @@
 > silent, or behind what the Team actually does. Read it before amending.
 
 
-**CAN.dy Dance Project Bylaws**  
+**CAN.dy Dance Project Bylaws — v5**  
 Adopted: _________, 2026  
 Location: San Jose, Santa Clara County, California
 

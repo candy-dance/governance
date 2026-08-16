@@ -17,7 +17,7 @@ Edit the `.md` source files here; generated PDFs are written to `admin_pdfs/` us
 ## Operations
 ### Projects
 - `operations/projects/project_proposal.md` — intake form for new projects
-- `operations/projects/rehearsal_tracker.md` — WildApricot event fields and event-data template
+- `operations/projects/rehearsal_tracker.md` — venue/event information checklist
 
 ### Venues
 - `operations/venues/rental_checklist.md` — venue/studio diligence questions, red flags, negotiation asks
@@ -33,7 +33,7 @@ Edit the `.md` source files here; generated PDFs are written to `admin_pdfs/` us
 1. Start with `operations/projects/project_proposal.md`
 2. Review venue details in `operations/venues/rental_checklist.md`
 3. Capture approval/signing in `operations/venues/venue_deal_sheet.md`
-4. Mirror the event in WildApricot with `operations/projects/rehearsal_tracker.md`
+4. Work through `operations/projects/rehearsal_tracker.md` for the event
 5. Store contracts, approvals, receipts, and closeout materials per `operations/records/drive_conventions.md`
 
 For policy questions, check `governance/bylaws.md` first.

@@ -4,16 +4,23 @@
 - Total expected cost: $________  Cancellation policy: ____________________  
 - Notes (heels/chairs/filming rules): ____________________________________
 
-Here’s a practical way to map your **Venue Deal Sheet** + **Rehearsal Block Tracker** into **WildApricot Event entry fields**, so each booking/project lives as an “Event” with consistent info.
+The rest of this document is the information to capture for any booking, drawn
+from the **Venue Deal Sheet** and the **Rehearsal Block Tracker** above. It is
+deliberately platform-neutral: an earlier draft framed it as a WildApricot
+configuration, but WildApricot was never set up. Use it as a checklist —
+in Drive, in a doc, or wherever the event is being planned.
 
-## Recommended WildApricot setup
+The **Approvals** section below is the part that is not optional: those fields
+exist to evidence the Co-Director approvals that Articles 11 and 19 require
+before CAN.dy is committed to anything.
 
-### 1) Create 3 Event templates (or categories)
+## Event types
+
 - **Rehearsal Block (Studio Rental)**
 - **Performance (Theater/Bar)**
 - **Video Shoot**
 
-### 2) Add these **Custom Event Fields** (copy/paste names)
+## Information to capture
 
 **Core**
 - Venue Name (text)
@@ -75,9 +82,10 @@ Here’s a practical way to map your **Venue Deal Sheet** + **Rehearsal Block Tr
 - Expected Expenses (currency)
 - Deficit Approved in Writing? (yes/no)
 
-### 3) Attachments / links
-WildApricot events don’t always handle attachments elegantly, so best practice is:
-- Keep a folder per Event in Google Drive, and paste links into:
+## Attachments / links
+
+Keep documents in Drive rather than attached to any one tool, and record the
+links against the event:
   - **Contract Link**
   - **Recording Permission Link**
   - (optional) **Invoice/Quote Link**

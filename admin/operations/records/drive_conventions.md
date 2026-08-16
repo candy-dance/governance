@@ -6,7 +6,7 @@ Create one top-level folder:
   - **02 Finance** (statements, reports)
   - **03 Governance** (bylaws, policies, minutes)
 
-For each WildApricot Event, create a matching Drive folder under **01 Projects & Events**:
+For each Project or event, create a Drive folder under **01 Projects & Events**:
 
 **Folder name format (best for sorting):**
 - `YYYY-MM-DD — [VENUE] — [EVENT TYPE] — [PROJECT NAME]`
@@ -35,10 +35,10 @@ For `02 Finance`, keep monthly banking records from **Stanford Federal Credit Un
 - `Transaction Export — Stanford Federal Credit Union — YYYY-MM.csv`
 
 ## “Create a new Event” checklist (Project Coordinator can run)
-1) Create WildApricot Event using the right template (Rehearsal Block / Performance / Video Shoot).
+1) Work through the event checklist for the right type (Rehearsal Block / Performance / Video Shoot).
 2) Create the matching Drive folder using the naming format above.
 3) Put any contract/quote emails or PDFs into `01 Contract & Insurance`.
-4) Paste Drive links into WildApricot fields:
+4) Record the Drive links against the event:
    - Contract Link
    - Recording Permission Link (if applicable)
 5) Fill in Money fields + deadlines; notify Treasurer.

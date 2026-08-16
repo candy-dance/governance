@@ -22,7 +22,7 @@
 ## Cross-file workflow to understand before editing
 - Project intake begins in `admin/operations/projects/project_proposal.md`.
 - Venue/studio diligence is split between `admin/operations/venues/rental_checklist.md` (questions/red flags) and `admin/operations/venues/venue_deal_sheet.md` (approval/signing summary).
-- Event operations then map into WildApricot fields from `admin/operations/projects/rehearsal_tracker.md` and a matching Google Drive folder structure from `admin/operations/records/drive_conventions.md`.
+- Event operations then follow the checklist in `admin/operations/projects/rehearsal_tracker.md` and a matching Google Drive folder structure from `admin/operations/records/drive_conventions.md`.
 - Supporting records flow into Drive subfolders such as `01 Contract & Insurance`, `02 Budget & Payments`, and `05 Reports & Closeout` (`admin/operations/records/drive_conventions.md`).
 
 ## Approval and ownership rules that recur across files
@@ -39,8 +39,9 @@
 - Retain the repo’s concrete examples when useful, such as Drive naming like `YYYY-MM-DD — [VENUE] — [EVENT TYPE] — [PROJECT NAME]` from `admin/operations/records/drive_conventions.md`.
 
 ## External systems and integration points
-- The operational stack referenced by the docs is Google Drive + WildApricot + team email/social accounts (`admin/governance/account_data_access_policy.md`, `admin/operations/projects/rehearsal_tracker.md`, `admin/operations/records/drive_conventions.md`).
-- WildApricot is used for dues/event management; Drive stores contracts, recording permissions, invoices, receipts, and closeout summaries.
+- The operational stack is Google Drive + the CAN.dy membership system (`candy-dance/candy-dance-app`) + team email/social accounts (`admin/governance/account_data_access_policy.md`, `admin/operations/records/drive_conventions.md`).
+- Dues and acknowledgments live in the membership system; Drive stores contracts, recording permissions, invoices, receipts, and closeout summaries.
+- **WildApricot is referenced nowhere and was never set up.** Earlier drafts of these documents assumed it; if you find a surviving mention, it is a leftover, not a system anyone uses.
 - Complaints and safety escalation paths are role-specific; preserve the routing rules in `admin/governance/complaint_process.md` when updating related policies.
 
 ## What not to assume

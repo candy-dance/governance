@@ -12,7 +12,7 @@ It is documentation-first: the repo contains policies, templates, and class mate
 ## Admin structure
 - `admin/governance/` — bylaws, elections, account access, banking, complaints, officer acknowledgment
 - `admin/finance/` — reimbursement and finance policy
-- `admin/operations/projects/` — project intake and WildApricot/event setup docs
+- `admin/operations/projects/` — project intake and event setup docs
 - `admin/operations/venues/` — venue diligence and approval/signing templates
 - `admin/operations/records/` — Google Drive naming and record-storage conventions
 - `admin/participant_forms/` — participant acknowledgment / risk form
@@ -30,7 +30,7 @@ A common workflow across the docs is:
 1. Submit a project in `admin/operations/projects/project_proposal.md`
 2. Review venue/studio terms in `admin/operations/venues/rental_checklist.md`
 3. Summarize approval/signing in `admin/operations/venues/venue_deal_sheet.md`
-4. Map the event into WildApricot using `admin/operations/projects/rehearsal_tracker.md`
+4. Work through the event checklist in `admin/operations/projects/rehearsal_tracker.md`
 5. Store contracts, receipts, and closeout records using `admin/operations/records/drive_conventions.md`
 
 ## Tooling
