@@ -1,11 +1,5 @@
 **CAN.dy Dance Project — Conduct Concern & Complaint Process**
 
-> **Adoption and effective dates live in the membership system**, not in this
-> file. `document_versions` records the version and effective date; the
-> `acknowledgments` table records who agreed to which version and when, with a
-> server-generated timestamp, append-only (Article 20.2, 20.3). A blank line
-> here would be a second, worse copy of that record.
-
 1. **Scope.** Applies to rehearsals, performances, shoots, online spaces, and related events.
 
 2. **What can be reported.** Harassment, discrimination, bullying, retaliation, boundary violations, unsafe behavior, or other serious conduct concerns.

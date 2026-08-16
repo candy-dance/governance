@@ -1,13 +1,6 @@
 # CAN.dy Dance Project
 ## Release of Liability, Assumption of Risk, Waiver, and Media Release
 
-> **This is now a specification, not a form to print.** Participants acknowledge
-> it in the membership system, where the checkbox carries the same legal effect
-> as a signature (Article 20.1) and the record is append-only and timestamped
-> (Article 20.3). Keep the wording here authoritative and current — the app
-> links members to this file as the thing they are agreeing to — but do not
-> fill in the blanks; they exist so the app knows which fields to collect.
-
 **Document Version:** v1.0
 **Participant Name:** ______________________
 **Date:** ______________________

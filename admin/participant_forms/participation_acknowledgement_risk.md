@@ -1,19 +1,5 @@
 **CAN.dy Dance Project — Participation Acknowledgment, Assumption of Risk & Emergency Contact**  
 
-> **This is now a specification, not a form to print.** Participants acknowledge
-> it in the membership system, where the checkbox carries the same legal effect
-> as a signature (Article 20.1) and the record is append-only and timestamped
-> (Article 20.3). Keep the wording here authoritative and current — the app
-> links members to this file as the thing they are agreeing to — but do not
-> fill in the blanks; they exist so the app knows which fields to collect.
->
-> **Emergency contact details are held in the system**, on the member record
-> (`members.emergency_contact_name`, `_phone`, `_relationship`), visible to the
-> member and to officers only. That was the last thing on this form that needed
-> somewhere to live — Article 14 governs safety at rehearsals, and a phone
-> number is more use on a phone at a studio than in a Drive folder. The
-> `account_data_access_policy.md` limit on personal data already contemplates
-> holding exactly this.
 Project Name: __________________________  Project Dates: ________________
 
 Participant Name: _______________________  Phone: ______________________  
