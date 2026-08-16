@@ -11,9 +11,15 @@
 >
 > `docs/bylaws-issues.md` in that repo records where this document is ambiguous,
 > silent, or behind what the Team actually does. Read it before amending.
+>
+> **Version numbers count adopted versions, not drafts.** Earlier drafts were
+> informally numbered up to v5, but none was ever signed, so nothing was in
+> force. Whatever is adopted first is v1. The next number is issued only when a
+> revision is actually adopted — Article 20.2 ties every acknowledgment to a
+> specific version, and a participant cannot meaningfully agree to a draft.
 
 
-**CAN.dy Dance Project Bylaws — v5**  
+**CAN.dy Dance Project Bylaws — v1**  
 Adopted: _________, 2026  
 Location: San Jose, Santa Clara County, California
 
