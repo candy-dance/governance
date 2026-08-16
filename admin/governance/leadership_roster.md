@@ -1,25 +1,22 @@
-**CAN.dy Dance Project — Leadership Roster**  
-Effective as of: _______________, 2026
+**CAN.dy Dance Project — Leadership Roster**
 
-### 1. Purpose
-Maintain the current and historical record of CAN.dy officer and appointed leadership roles.
-
-### 2. Current officers
-| Role | Name | Start date | End date (if applicable) | Status |
-|---|---|---|---|---|
-| Co-Director | Cat Tang | __________ | __________ | Active |
-| Co-Director | Andy Pham | __________ | __________ | Active |
-| Treasurer | Lisa Zacarias | __________ | __________ | Active |
-| Secretary | Cherry Aslarona | __________ | __________ | Active |
-
-### 3. Appointed leadership roles (as applicable)
-| Role | Name | Scope (Project/Ongoing) | Start date | End date (if applicable) | Status |
-|---|---|---|---|---|---|
-| Project Coordinator | ____________________________ | ____________________________ | __________ | __________ | Active / Former |
-| Social Media Manager | ____________________________ | ____________________________ | __________ | __________ | Active / Former |
-| Outreach Lead | ____________________________ | ____________________________ | __________ | __________ | Active / Former |
-
-### 4. Recordkeeping
-- The Secretary maintains this roster and updates entries when appointments, resignations, removals, or elections occur.
-- Names on this roster should match current signed governance records (for example, `officer_acknowledgement.md` and `bank_resolution.md`).
-
+> **Superseded by the membership system.** Do not maintain this file.
+>
+> Who holds which office, since when, and who held it before is recorded in
+> `role_terms` in `github.com/candy-dance/candy-dance-app`, and shown by the
+> `current_role_holders` view. That covers everything this document did:
+>
+> - the Article 5 offices — Co-Directors, Treasurer, Secretary
+> - the Article 13 appointed roles — Project Coordinator, Social Media Manager,
+>   Outreach Lead — including whether each is per-Project or ongoing
+> - start and end dates, so the November elections under Article 7.4 leave a
+>   trail and "who was Treasurer in 2027" has an answer
+> - former officers, which section 1 of this document asked for and a
+>   hand-edited table never really delivered
+>
+> The Secretary's recordkeeping duty under Article 6.3 is unchanged — it is now
+> discharged by keeping `role_terms` current rather than by editing this file.
+>
+> Opening or closing a term is what grants or removes officer access in the
+> system; there is no separate step. Kept as a file rather than deleted so the
+> history explains itself.
