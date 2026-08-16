@@ -1,4 +1,7 @@
 ## Rehearsal Block Tracker (bonus mini-template)
+
+> **Template.** Fill in a fresh copy per rehearsal block. The blanks here are by design —
+> unlike the governing documents, this is meant to be filled in by hand.
 **Studio:** __________________  **Block dates:** __________ to __________  
 - Recurring day/time: __________________  Rate: $______/hr  Hours: ______  
 - Total expected cost: $________  Cancellation policy: ____________________  

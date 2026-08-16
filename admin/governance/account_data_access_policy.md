@@ -1,5 +1,10 @@
-**CAN.dy Dance Project — Accounts & Data Access Policy**  
-Effective: _________, 2026
+**CAN.dy Dance Project — Accounts & Data Access Policy**
+
+> **Adoption and effective dates live in the membership system**, not in this
+> file. `document_versions` records the version and effective date; the
+> `acknowledgments` table records who agreed to which version and when, with a
+> server-generated timestamp, append-only (Article 20.2, 20.3). A blank line
+> here would be a second, worse copy of that record.
 
 1. **Team “primary email.”** The Team’s current primary email is **can.dydanceproject1102@gmail.com**. The Co-Directors may change the primary email at any time by written notice, and the Secretary will update this policy and the access list accordingly.
 

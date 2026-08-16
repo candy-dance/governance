@@ -20,7 +20,6 @@
 
 
 **CAN.dy Dance Project Bylaws — v1**  
-Adopted: _________, 2026  
 Location: San Jose, Santa Clara County, California
 
 ### Article 1 — Name

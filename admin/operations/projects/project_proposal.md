@@ -1,4 +1,7 @@
 **CAN.dy Dance Project — Project Proposal Form**  
+
+> **Template.** Fill in a fresh copy per proposal. The blanks here are by design —
+> unlike the governing documents, this is meant to be filled in by hand.
 Submitted by: ____________________________  Date: ____________  
 Email/Phone: _____________________________
 

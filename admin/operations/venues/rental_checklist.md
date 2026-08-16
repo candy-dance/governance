@@ -1,6 +1,9 @@
 **CAN.dy Dance Project — Venue/Studio Rental Checklist**  
 Use for studios, theaters, bars/clubs, event organizers, and filming locations.
 
+> **Template.** Fill in a fresh copy per venue under consideration. The blanks here are by design —
+> unlike the governing documents, this is meant to be filled in by hand.
+
 ### A. Basics to confirm (before you commit)
 - **Date(s)/times:** load-in, rehearsal, show, strike; overtime rates  
 - **Address + access:** parking, entry instructions, ADA access  

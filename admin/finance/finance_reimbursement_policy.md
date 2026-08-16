@@ -3,8 +3,11 @@
 > Payment collection and the Treasurer's Article 11.6 monthly report are
 > implemented in `github.com/candy-dance/candy-dance-app`. Payouts route to the
 > Stanford Federal Credit Union account named in section 2.
-
-Effective: _________, 2026
+>
+> **Adoption and effective dates live in the membership system**, not in this
+> file. `document_versions` records the version and effective date; the
+> `acknowledgments` table records who agreed to which version and when, with a
+> server-generated timestamp, append-only (Article 20.2, 20.3).
 
 1. **Purpose.** Establish clear controls for handling Team funds and reimbursing expenses.
 

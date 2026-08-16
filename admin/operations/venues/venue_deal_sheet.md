@@ -1,5 +1,8 @@
 ## CAN.dy “Venue Deal Sheet” (internal 1-pager) — use before approval/signing
 
+> **Template.** Fill in a fresh copy per booking. The blanks here are by design —
+> unlike the governing documents, this is meant to be filled in by hand.
+
 **Event/Booking name:** ____________________________  **Type:** [ ] Rehearsal block [ ] One-off show [ ] Video shoot  
 **Venue:** ____________________________  **Address:** ____________________________  
 **Date(s):** ____________________________  **Time window (incl. load-in/out):** ____________________________
