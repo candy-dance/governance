@@ -31,10 +31,27 @@ Entries are newest first.
 
 ## Bylaws
 
-### v1 — not yet adopted
+### v1 — treated as adopted 17 August 2026, acknowledgments not yet recorded
 
-The first version intended for adoption. Not yet in force: no adoption date and
-no acknowledgments recorded.
+The Treasurer's decision, taken 17 August 2026: v1 is treated as the version in
+force from that date.
+
+**No acknowledgments exist in the membership system.** So the two things Article 20
+distinguishes have come apart:
+
+- **In force** — the Team is operating under v1, and the app's dues, waiver and
+  forfeiture rules already implement it.
+- **Acknowledged** — nobody has recorded agreeing to it. `acknowledgments` is
+  empty, and every participant therefore shows as outstanding in the app.
+
+That gap is recorded rather than tidied away because it is the one thing this file
+exists to answer later. An Article 20.2 acknowledgment names a version and a
+person; nothing here can be reconstructed after the fact from an informal
+decision, and a forfeiture or waiver dispute is exactly when somebody asks.
+
+**To close it:** each participant opens `/documents` in the app and agrees. It
+needs no email and no reminder job — the Co-Directors and officers agreeing takes a
+minute each, and would make this entry a straightforward adoption record.
 
 Changes made while preparing it, all before adoption and therefore not
 amendments under Article 18:
