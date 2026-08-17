@@ -201,6 +201,81 @@ day, which is plainly not what anyone intends.
 
 ---
 
+## 7. Article 10.1 states the dues rate as a figure, not a default
+
+**Current text:**
+
+> **Project-based dues formula.** Dues are set per Project as follows:
+> - **Dancers:** (Number of scheduled rehearsals) × **$20**
+> - **Project Choreographer(s)/Artistic Director(s):** (Number of scheduled
+>   rehearsals) × **$10**
+
+Those numbers exist to cover studio rent. Heroes & Villains (August 2026) has no
+studio cost, so the Co-Directors set it at **$10 per rehearsal**, with
+choreographers at $5. That is obviously reasonable and equally obviously not what
+Article 10.1 says.
+
+**What the system does now:** `projects.dancer_rate_cents`, defaulting to
+Article 10.1's $20. Choreographers pay half of whatever it is — the *relationship*
+in 10.1 is preserved, only the base moves. A CHECK keeps the rate even so the
+half is always whole cents.
+
+**Proposed replacement for Article 10.1:**
+
+> **Project-based dues formula.** Dues are set per Project as (number of
+> scheduled rehearsals) × a per-rehearsal rate determined by the Co-Directors,
+> which will not exceed **$20** for dancers absent a written exception. Project
+> Choreographer(s)/Artistic Director(s) pay **half** the dancer rate. In setting
+> the rate the Co-Directors will have regard to the Project's studio and
+> production costs.
+
+The ceiling keeps 10.1's protective intent — participants cannot be charged
+arbitrarily — while letting a Project without studio costs charge less. The
+half-rate relationship is stated once rather than as two figures that can drift
+apart.
+
+---
+
+## 8. Article 11.9 says read-only, and the system lets Co-Directors write
+
+**Current text:**
+
+> The Treasurer will provide reasonable **read-only** access to financial
+> reports/records to the Co-Directors and Secretary for oversight and
+> continuity.
+
+Read strictly, only the Treasurer may record a payment. The Team decided that is
+too tight: nobody could enter a payment while the Treasurer was away, and
+Article 7.8's interim-officer appointment is slower than that problem.
+
+**What the system does now:**
+
+| | Read payments | Record payments | Refund | Waive |
+|---|---|---|---|---|
+| Treasurer | yes | yes | yes | **no** |
+| Co-Directors | yes | yes | yes | yes |
+| Secretary | yes | no | no | no |
+
+The Secretary half of 11.9 is enforced exactly as written — she has full read
+access and cannot change an amount. The Co-Director half is deliberately wider.
+
+Waivers are withheld from the Treasurer on purpose: recording money received and
+excusing money owed are different decisions, and Article 11.7's principle that
+nobody approves their own applies by analogy.
+
+Every change to a payment, refund or waiver is recorded in an append-only log
+with who made it and the previous value.
+
+**Proposed replacement for Article 11.9:**
+
+> **Access to financial records.** The Treasurer maintains the Team's financial
+> records. The Co-Directors may record payments received when the Treasurer is
+> unavailable. The Secretary and each Co-Director have read-only access to all
+> financial reports and records for oversight and continuity. Every change to a
+> financial record is logged with the identity of the person making it.
+
+---
+
 ## 4. Article 7.1(b) good standing is now computable — an opportunity, not a problem
 
 **Current text:**
