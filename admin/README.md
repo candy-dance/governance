@@ -42,10 +42,19 @@ For policy questions, check `governance/bylaws.md` first.
 
 ## For whoever maintains these documents
 
-**Some of these are read by members inside the app.** The membership system
-(`github.com/candy-dance/candy-dance-app`) stores the full text of the bylaws,
-the participation acknowledgment and the media release, and renders them for
-members to read and acknowledge.
+**Some of these are read by members inside the app.** The membership system —
+live at **https://candy.dance**, source at
+`github.com/candy-dance/candy-dance-app` — stores the full text of the bylaws
+and the Participation Agreement, and renders them for members to read and
+acknowledge.
+
+Member-facing entry points, for anyone writing an announcement:
+
+| | |
+|---|---|
+| Sign in | `candy.dance` — enter your email, no password |
+| Join the Team | `candy.dance` — sign in first, then the form appears |
+| Propose a project | `candy.dance/propose` — open to anyone, Article 8.2 |
 
 That means **notes to maintainers must not live inside those files.** Anything
 written at the top of `bylaws.md` is shown to a member who is about to agree to
