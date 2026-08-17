@@ -14,9 +14,14 @@ Started 2026-08-15.
 Encoding the bylaws as executable rules surfaced places where the text can't be
 mechanically applied without picking an interpretation. Each item below says
 what the code does in the meantime and, where useful, proposes replacement
-wording. Nothing here is urgent enough to block the build — but items 1 and 2
-are decisions only the Co-Directors can make, and the code has `TODO` comments
-pointing back here.
+wording. Most of it does not block the build — but items 1 and 2 are decisions
+only the Co-Directors can make, and the code has `TODO` comments pointing back
+here.
+
+**Item 9 has a clock on it.** It records a live departure from the bylaws, taken
+deliberately and with an audit trail, that expires within thirty days. It should
+be ratified or ended at the next Leadership Team meeting rather than being allowed
+to lapse quietly and then be re-taken.
 
 ---
 
@@ -135,6 +140,37 @@ The two-Co-Director approval mirrors the conflict controls in Article 11.7, and
 routing it through the monthly report keeps it visible without a new process.
 
 ---
+
+## 2b. A waiver and a 100% hardship reduction reach the same $0 under different rules
+
+Following on from item 2. The system has two ways to bring an assessment to zero,
+and they are governed inconsistently.
+
+**What the system does now:**
+
+- Setting `dues.status = 'waived'` requires a **Co-Director**, enforced by trigger
+  since migration 0018.
+- Setting `dues.subsidy_percent = 100` requires only an **officer**, and produces
+  the same $0.
+
+The first rule was added on the reasoning that excusing money should not rest with
+the person recording it. That is sound as a principle. It is not, however, what
+Article 10.5 says — 10.5 reserves hardship to nobody, and Article 9.2 makes
+anything not reserved to the Co-Directors ordinary Leadership Team business. So
+the stricter of the two rules is the one with no basis in the text, and the looser
+one is arguably correct.
+
+**Why it has been left as it is:** loosening a control on money is a Leadership
+decision, not something to change quietly in a migration. Both rules are recorded
+and enforced; what is missing is agreement on which one is right.
+
+**What the Leadership Team needs to decide:** whether excusing dues — by either
+route — is ordinary Leadership business under 9.2, or should be reserved to the
+Co-Directors. Then either relax the waiver guard or extend it to large hardship
+reductions, and say so in Article 10.
+
+Every reduction is now logged with who set it and what it moved from and to
+(`subsidy_changes`), so whichever way this goes, the history is attributable.
 
 ## 3. Article 10 doesn't contemplate partial payment
 
@@ -275,6 +311,41 @@ with who made it and the previous value.
 > financial record is logged with the identity of the person making it.
 
 ---
+
+## 9. The Treasurer is acting under delegated authority where the bylaws name a Co-Director
+
+**The situation:** the Team's two Co-Directors are also this Project's
+choreographers and the two people whose dues were comped. Decisions the bylaws
+assign to them — waivers, and approving people who sign themselves up — were
+queuing behind the people they concerned.
+
+**What the system does now:** an officer may take on **time-boxed delegated
+authority** (`officer_delegations`). It requires a written reason, runs for a
+maximum of thirty days, and expires by itself. Every act taken under it is
+appended to `delegated_action_log`, which is append-only by trigger and not
+writable by anyone through the app, including the person it implicates. Acts taken
+by an actual Co-Director are not logged — the record is for the exception.
+
+Self-authorisation is permitted and recorded as such: `granted_by` is stored
+separately from `granted_to` and surfaced in the app as "self-authorised, nobody
+else approved this".
+
+**Why:** a rule nobody present can satisfy gets worked around outside the system,
+where there is no record at all. That is worse than a rule bent inside it. But
+this reasoning holds for weeks, not indefinitely.
+
+**What the Leadership Team needs to do:** ratify this at a meeting (Article 9.1),
+or amend the bylaws to describe it. A possible amendment:
+
+> **Temporary delegation.** Where these bylaws require Co-Director approval and no
+> Co-Director is available or is disinterested in the matter, an officer may act
+> for a stated period not exceeding thirty (30) days, recording the reason. Every
+> action so taken will be recorded and reported at the next Leadership Team
+> meeting.
+
+Note the phrase *"or is disinterested in the matter"* — the situation that
+prompted this was not absence but conflict of interest, and an amendment that only
+covers absence would not cover it.
 
 ## 4. Article 7.1(b) good standing is now computable — an opportunity, not a problem
 
