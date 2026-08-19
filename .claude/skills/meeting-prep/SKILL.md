@@ -12,6 +12,37 @@ Article 9.1 puts these meetings on the last Sunday of the month, at least monthl
 makes the minutes the Secretary's. This skill writes an **agenda**, not minutes — it goes in
 `meetings.agenda`, which is editable, rather than into either minutes table.
 
+## The standing items are already there — APPEND, do not replace
+
+A `before insert` trigger (0112) fills every new meeting's agenda with the items the Treasurer said
+must always be on it: **current projects, upcoming projects, and the financial report**, computed
+from the database as of the meeting's own date. That happens whoever creates the meeting — the form,
+a script, a migration — which is why it is a trigger and not a default in the form.
+
+So this skill's job is the part SQL cannot do: reading the last minutes and working out what is
+unfinished. Read the existing agenda first, keep it, and fill in the section it leaves for you:
+
+```
+## Carried over from last time
+_Run the meeting-prep skill to fill this in from the last set of minutes._
+```
+
+Replace that placeholder line, leave everything above it alone, and write in **markdown** — the
+agenda renders through `<Prose>`, so `##` headings, lists and tables all work.
+
+Never retype the standing sections. Call `meeting_agenda_defaults(<the meeting's date>)` and use what
+it returns, so the figures are the database's rather than your reading of it.
+
+**A meeting scheduled before 0112 has no standing sections at all** — the trigger is `before insert`,
+so it never ran on rows that already existed. Check for the `## Financial report` heading before
+assuming there is a spine to append to; if there is none, generate one and fold the meeting's
+existing typed agenda in as its own section rather than discarding it.
+
+**The spine is a snapshot, not a live view.** The trigger writes it into `meetings.agenda` at insert
+time, so a meeting scheduled six weeks out carries six-week-old figures by the time it is held. Say
+so when you hand the agenda over, and regenerate the spine if the meeting is close: the figures below
+are only worth reading aloud if they are current.
+
 ## Where to look, in this order
 
 **1. The last meeting's action items, and whether they actually happened.**
@@ -70,14 +101,21 @@ detail in your reply to her rather than in the database.
 
 ## Shape of the output
 
-Draft the agenda in the order the Board actually works, which their own minutes show:
+The trigger fixes the first three sections and puts the carry-over placeholder last, so work with
+that order rather than against it — every meeting from 0112 onwards will look this way, and an
+agenda that reorders them is an agenda that no longer matches its siblings:
 
-1. Carried over from last time (with age)
-2. Current project — rehearsals, casting, costume, performance
-3. Money — balance, dues outstanding, fundraising, expenses needing authorisation
-4. Upcoming projects and opportunities
-5. Governance and deadlines — elections, documents, appointments
-6. Closed session (listed, not described)
+1. Current projects *(generated)*
+2. Upcoming projects *(generated)*
+3. Financial report *(generated)*
+4. **Carried over from last time** — replace the placeholder. Split it into what is *done* (report
+   it and drop it) and what is *still open* (a table with owner, how long it has been carried, and
+   what the app says rather than what the minutes said).
+5. Then append your own sections: anything the meeting's own typed agenda asked for, governance and
+   deadlines, and last of all the closed session — listed, never described.
+
+If the same item has appeared in three consecutive sets of minutes, give it its own short heading.
+"Three meetings running" is a sentence about the Board, not about the item.
 
 Then offer to write it to the meeting:
 
