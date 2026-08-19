@@ -88,10 +88,20 @@ elimination.
    For a historical import, `announced_on` and `nominations_open_on` do not apply; only
    `scheduled_at`, `ends_at`, `location` and `agenda` do.
 
-3. **Write the two bodies.** Structure the open minutes the way the Board actually talks —
-   decisions, projects, money, action items. Keep their words where you can; these are their
-   minutes, not your summary of them. In the closed body, say what was discussed and why it is
-   closed, without making it more lurid than the source.
+3. **Write the two bodies in MARKDOWN.** Both are rendered with react-markdown and Tailwind
+   typography via `<Prose>`, so structure survives to the page: `##` headings per topic, `-` lists,
+   `**bold**` for decisions, and tables for anything with columns — schedules, budgets, action items
+   with owners. Plain text renders as one pre-wrapped wall, and minutes are read to find a single
+   decision rather than start to finish.
+
+   Structure the open minutes the way the Board actually talks — progress, decisions, money, action
+   items. Keep their words where you can; these are their minutes, not your summary of them.
+
+   **Do not restate the reason in the body.** The page already shows a "Closed session" heading, a
+   sentence about Article 9.1, and the `reason` field. A body opening "Held out of the open record
+   because…" is the fourth statement of one idea, which is how the Treasurer found it: "the closed
+   session and the why this was closed look redundant." Start the closed body at its first real
+   topic, under a `##` heading of its own, and do not make it more lurid than the source.
 
 4. **Insert as drafts.** Run from the app directory:
    `cd /Users/zacarias/candy/candy-dance-app && supabase db query --linked -f <file>`
