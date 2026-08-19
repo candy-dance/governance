@@ -1,0 +1,14 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "candy-app",
+      "runtimeExecutable": "bash",
+      "runtimeArgs": [
+        "-lc",
+        "cd /Users/zacarias/candy/candy-dance-app && pnpm dev"
+      ],
+      "port": 3000
+    }
+  ]
+}
