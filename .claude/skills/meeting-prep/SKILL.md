@@ -47,8 +47,33 @@ are only worth reading aloud if they are current.
 
 **1. The last meeting's action items, and whether they actually happened.**
 
-This is the whole point of the exercise and the part a person cannot do from memory. Read the most
-recent adopted or draft minutes:
+This is the whole point of the exercise and the part a person cannot do from memory.
+
+**Start with the table, not the prose.** Since 0115 the items are rows, with an owner and a done
+flag, so the carried-over section is largely a query rather than a reading exercise:
+
+```sql
+select a.description, m.full_name as owner, a.owner_note, a.due_on, a.closed_session,
+       (mt.scheduled_at at time zone 'America/Los_Angeles')::date as agreed_on
+  from meeting_action_items a
+  join meetings mt on mt.id = a.meeting_id
+  left join members m on m.id = a.owner_member_id
+ where a.done_at is null
+ order by mt.scheduled_at, m.full_name;
+```
+
+Anything still open here is a candidate for the agenda, and `agreed_on` gives you the age. Closed
+items are already gone from the list, so you are not re-litigating settled business.
+
+Two things the table cannot tell you, so still do them:
+
+- **Whether an open item is secretly done.** Nobody ticks boxes reliably. Check each one against the
+  app using the table below, and offer to close the ones that are finished rather than putting them
+  on the agenda.
+- **Whether the last meeting agreed something that never became a row** — likely if the minutes were
+  written before 0115, or by hand. Read the prose as well and say so if you find one.
+
+Then read the minutes themselves for context:
 
 ```sql
 select m.id, (m.scheduled_at at time zone 'America/Los_Angeles')::date as met_on,

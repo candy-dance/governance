@@ -123,6 +123,33 @@ elimination.
 5. **Record attendance** if the minutes name who was there. `meeting_attendance` has
    `(meeting_id, member_id, present, apologies)`, and `present` and `apologies` cannot both be true.
 
+6. **Put every action item in `meeting_action_items` as well as in the prose.** The table in the body
+   is what people read; the rows are what reach them. Without the rows nothing can ask "what is Cat
+   supposed to be doing", and nothing notices the same item appearing three meetings running — which
+   is how the attendance message went uncarried from 26 July to the end of August.
+
+   ```sql
+   insert into meeting_action_items
+     (meeting_id, description, owner_member_id, owner_note, due_on, closed_session)
+   values ('<meeting id>', 'Draft the attendance message',
+           (select id from members where full_name = 'Cat Tang'), 'Cat', null, false);
+   ```
+
+   - **Only what the minutes list as an action item.** The prose always contains more commitments
+     than the table does. Promoting a sentence the Board chose not to put on its list is deciding
+     for them what they agreed to.
+   - **`owner_member_id` only when one person is named unambiguously.** A nickname that could be two
+     people on the roster goes in `owner_note` with a null owner, and you ask. "Meesh" cost a
+     question, and the roster has both a Miche and a Michelle Leu.
+   - **Keep `owner_note` even when you set an owner.** "Cat & Andy" is not the same commitment as
+     "Cat". Assign the first named person so it reaches somebody, and let the note stay honest.
+   - **`closed_session = true` for anything from the closed portion**, judged the same way as the
+     minutes themselves. An owned closed item would appear on that person's own to-do list, which
+     publishes to them exactly what closing the session protected — so leave those unowned, and tell
+     Lisa in your reply who needs to follow it up.
+   - **Do not mark anything done** unless the app itself proves it, and say which evidence per item.
+     "The pop-up needed ten people and twelve attended" closes an item; "it was ages ago" does not.
+
 6. **Report the split to Lisa, item by item**, and say plainly that nothing is adopted. She needs to
    be able to disagree with any single call before it becomes permanent. Name what you closed and
    why — "Chloe's absence, because it records that she may have been crying" — rather than saying
