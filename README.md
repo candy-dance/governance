@@ -1,38 +1,23 @@
-# CAN.dy Dance Project Docs
+# Moved — archived
 
-This repository stores the working documents for `CAN.dy Dance Project`.
-It is documentation-first: the repo contains policies, templates, and class materials rather than application code.
+CAN.dy's governing, financial and operational documents now live in the app repository, at
+**`candy-dance/candy-dance-app` → `admin/`**, alongside the code that enforces them: Article 10 is
+dues arithmetic in a migration, Article 20 is the acknowledgment tables. A rule in one repository and
+its implementation in another can drift with nothing noticing, and the code is the half that charges
+people money.
 
-## Folder map
-- `admin/` — governance, finance, operations, and participant-facing forms
-- `admin_pdfs/` — generated PDFs mirroring the `admin/` tree
-- `AGENTS.md` — repo-specific guidance for AI coding agents
+Members read the current text signed in at [candy.dance/documents](https://candy.dance/documents),
+which renders it and records who has agreed.
 
-## Admin structure
-- `admin/governance/` — bylaws, elections, account access, banking, complaints, officer acknowledgment
-- `admin/finance/` — reimbursement and finance policy
-- `admin/operations/projects/` — project intake and event setup docs
-- `admin/operations/venues/` — venue diligence and approval/signing templates
-- `admin/operations/records/` — Google Drive naming and record-storage conventions
-- `admin/participant_forms/` — participant acknowledgment / risk form
+## Why this is archived and not deleted
 
-See `admin/README.md` for a file-by-file index.
+The published v1 of the Bylaws and of the Participation Agreement each record a `content_url`
+pointing into this repository, and that column cannot be corrected: `document_versions` is
+append-only under Article 20.3, because Article 20.2 ties every acknowledgment to one specific
+version. Fixing a citation would mean publishing a v2 and asking all twenty-seven participants to
+agree again, over a URL.
 
-## Editing notes
-- Treat Markdown files as the editable source.
-- PDFs for `admin/**/*.md` are regenerated into `admin_pdfs/` on pushes to `main` by `.github/workflows/update-pdfs.yml`.
-- `README.md`, `admin/README.md`, and `AGENTS.md` are not part of the PDF automation unless the workflow is expanded.
-- Start with `admin/governance/bylaws.md` when editing related policies; other docs reuse its approval, reimbursement, election, and contract-authority rules.
+So this repository stays readable, for ever, as the source those two versions were published from.
+Archived is read-only but public, which is exactly what a citation needs.
 
-## Operational flow
-A common workflow across the docs is:
-1. Submit a project in `admin/operations/projects/project_proposal.md`
-2. Review venue/studio terms in `admin/operations/venues/rental_checklist.md`
-3. Summarize approval/signing in `admin/operations/venues/venue_deal_sheet.md`
-4. Work through the event checklist in `admin/operations/projects/rehearsal_tracker.md`
-5. Store contracts, receipts, and closeout records using `admin/operations/records/drive_conventions.md`
-
-## Tooling
-- PDF generation is automated in GitHub Actions via `.github/workflows/update-pdfs.yml`, which runs `scripts/generate_pdfs.sh`.
-- Generated files are committed under `admin_pdfs/` using the same relative path as their source Markdown in `admin/`.
-- No application build or test suite was found in the repository.
+**Do not delete it.**
